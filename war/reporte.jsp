@@ -1,0 +1,182 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<%@ taglib prefix="c" 
+           uri="/WEB-INF/tld/c.tld" %>
+<!DOCTYPE html>
+<html class="html" lang="es-ES">
+<head>
+  <meta http-equiv="Content-type" content="text/html;charset=UTF-8"/>
+  <meta name="generator" content="2015.0.0.309"/>
+  <title>MCDS | Reporte</title>
+  <!-- CSS -->
+  <link rel="stylesheet" type="text/css" href="css/site_global.css?4052507572"/>
+  <link rel="stylesheet" type="text/css" href="css/master_a-p_g_-maestra.css?126920684"/>
+  <link rel="stylesheet" type="text/css" href="css/dos.css?374079320" id="pagesheet"/>
+  <script type="text/javascript" src="scripts/canvasjs.min.js"></script>
+  <script type="text/javascript">
+window.onload = function () {
+	var chart = new CanvasJS.Chart("chartContainer",
+	{
+		title:{
+			text: "Oportunidades / Industrias"
+		},
+		exportFileName: "Pie Chart",
+		exportEnabled: true,
+                animationEnabled: true,
+		legend:{
+			verticalAlign: "bottom",
+			horizontalAlign: "center"
+		},
+		data: [
+		{       
+			type: "pie",
+			showInLegend: true,
+			toolTipContent: "{legendText}: <strong>{y}%</strong>",
+			indexLabel: "{label} {y}%",
+			dataPoints: [
+				{  y: 35, legendText: "Telecomunicacion", exploded: true, label: "Telecomunicacion" },
+				{  y: 15, legendText: "Finanzas", label: "Finanzas" },
+				{  y: 4, legendText: "Manufactura", label: "Manufactura" },
+				{  y: 13, legendText: "Entretenimineto", label: "Entretenimineto" },
+				{  y: 8, legendText: "Educacion", label: "Educacion"},
+				{  y: 18, legendText: "Electronica", label: "Electronica" },
+				{  y: 4, legendText: "Gobierno", label: "Gobierno" },
+				{  y: 3, legendText: "Energia", label: "Energia"}
+			]
+	}
+	]
+	});
+	chart.render();
+}
+</script>
+   </head>
+ <body class="museBGSize">
+<form >
+  <div class="clearfix" id="page"><!-- column -->
+   <div class="position_content" id="page_position_content">
+    <div class="clip_frame colelem" id="u208"><!-- image -->
+     <img class="block" id="u208_img" src="images/logo.png" alt="" width="185" height="57"/>
+    </div>
+    <div class="clearfix colelem" id="ppu274-4"><!-- group -->
+     <div class="clearfix grpelem" id="u272-4"><!-- content -->
+      <p>Inicio</p>
+     </div>
+     <div class="clearfix grpelem" id="pu274-4"><!-- group -->
+      <a class="nonblock nontext MuseLinkActive clearfix grpelem" id="u274-4" href="informacion_organizacion.jsp"><!-- content --><p>Organizaciones</p></a>
+      <a class="nonblock nontext museBGSize grpelem" id="u275" href="informacion_organizacion.jsp"><!-- simple frame --></a>
+     </div>
+     <div class="clearfix grpelem" id="pu278-4"><!-- group -->
+      <a class="nonblock nontext MuseLinkActive clearfix grpelem" id="u278-4" href="info_oportunidades.jsp"><!-- content --><p>Oportunidades</p></a>
+      <a class="nonblock nontext museBGSize grpelem" id="u275" href="info_oportunidades.jsp"><!-- simple frame --></a>
+     </div>
+     <div class="clearfix grpelem" id="pu282-4"><!-- group -->
+      <a class="nonblock nontext MuseLinkActive clearfix grpelem" id="u282-4" href="#">
+      	<p>Usuario: <%=session.getAttribute("name")%>
+      					<%if (session.getAttribute("name") != null && !session.getAttribute("name").equals("")) {
+		     				} else {
+      								response.sendRedirect("index.jsp");
+     						}
+    					%>
+      	</p>
+      </a>
+      <a href="Logout" class="clearfix grpelem">Logout</a>
+      <a class="nonblock nontext museBGSize grpelem" id="u283" href="#"></a>
+     </div>
+     <a class="nonblock nontext museBGSize grpelem" id="u273" href="#"></a>
+     <a class="nonblock nontext MuseLinkActive clearfix grpelem" id="u276-4" href="contactos.jsp"><!-- content --><p>Contactos</p></a>
+     <a class="nonblock nontext museBGSize grpelem" id="u277" href="contactos.jsp"><!-- simple frame --></a>
+     <a class="nonblock nontext MuseLinkActive clearfix grpelem" id="u280-4" href="reporte.jsp"><!-- content --><p>Reportes</p></a>
+     <a class="nonblock nontext museBGSize grpelem" id="u281" href="reporte.jsp"><!-- simple frame --></a>
+    </div>
+		
+    <div class="colelem" id="pu404"><!-- inclusion -->
+     <div id="u404"><!-- simple frame --></div>
+     <div class="clearfix" id="pu405-4"><!-- group -->
+      <div class="clearfix grpelem" id="u405-4"><!-- content -->
+       <p>Reportes</p>
+      </div>
+      <a href="#"> <img class="svg grpelem" id="u535" src="images/mas.svg" width="24" height="23"  alt="Agregar Nueva Organizacion" data-mu-svgfallback="images/mas_poster_.png"/><!-- svg --></a>
+      <img class="svg grpelem" id="u540" src="images/back.svg" width="25" height="25" alt="" data-mu-svgfallback="images/back_poster_.png"/><!-- svg -->
+      <img class="svg grpelem" id="u543" src="images/next.svg" width="25" height="25" alt="" data-mu-svgfallback="images/next_poster_.png"/><!-- svg -->
+     </div>
+    </div>
+    <table>
+    <div class="clearfix colelem" id="ppu406"><!-- group -->
+    
+    <tr>
+     <div class="grpelem" id="pu406"><!-- inclusion -->
+      <div id="u406"><!-- simple frame --></div>
+      <div class="clearfix" id="pu410-4"><!-- group -->
+       <div class="clearfix grpelem" id="u410-4"><!-- content -->
+        <p></p>
+       </div>
+      </div>
+     </div>
+     </tr>
+     
+     <tr>
+     <div class="grpelem" id="pu506"><!-- inclusion -->
+      <div id="u506"><!-- simple frame --></div>
+      <div class="clearfix" id="pu510-4"><!-- group -->
+       <div class="clearfix grpelem" id="u510-4"><!-- content -->
+        <p></p>
+       </div>
+      </div>
+     </div>
+     </tr>
+     
+     <tr>
+     <div class="grpelem" id="pu512"><!-- inclusion -->
+      <div id="u512"><!-- simple frame --></div>
+      <div class="clearfix" id="pu516-4"><!-- group -->
+       <div class="clearfix grpelem" id="u516-4"><!-- content -->
+        <p></p>
+       </div>
+      </div>
+     </div>
+     </tr>
+     
+     <tr>
+     <div class="grpelem" id="pu518"><!-- inclusion -->
+      <div id="u518"><!-- simple frame --></div>
+      <div class="clearfix" id="pu522-4"><!-- group -->
+       <div class="clearfix grpelem" id="u522-4"><!-- content -->
+        <p></p>
+       </div>
+      </div>
+     </div>
+     </tr>
+     <tr>
+     <div class="grpelem" id="pu524"><!-- inclusion -->
+      <div id="u524"><!-- simple frame --></div>
+      <div class="clearfix" id="pu528-3"><!-- group -->
+       <div class="clearfix grpelem" id="u528-3"><!-- content -->
+        <p>&nbsp;</p>
+       </div>
+      </div>
+     </div>
+     </tr>
+    </div>
+    </table>
+    <div class="clearfix colelem" id="pppu507"><!-- group -->
+    <div class="grpelem" id="u407"><!-- simple frame --></div>
+     <div class="grpelem" id="u513"><!-- simple frame --></div>
+     <div class="grpelem" id="u525"><!-- simple frame --></div>
+    
+    
+    <div align="center">
+		<div id="chartContainer" style="height: 300px; width: 100%;"></div>
+		</div>
+    </div>
+    <div class="verticalspacer"></div>
+   
+   </div>
+  <div class="preload_images">
+   <img class="preload" src="images/boton_menu-activo.png" alt=""/>
+   <img class="preload" src="images/boton_menu-hover.png" alt=""/>
+   <img class="preload" src="images/boton_menu-normal.png" alt=""/>   
+  </div>
+  </div>
+  </form>
+   </body>
+</html>

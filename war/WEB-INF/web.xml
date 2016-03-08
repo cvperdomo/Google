@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xmlns="http://java.sun.com/xml/ns/javaee"
+xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
+http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
+   <servlet>
+        <servlet-name>sing</servlet-name>
+        <servlet-class>guestbook.GuestbookServlet</servlet-class>
+    </servlet>
+    <servlet>
+		<servlet-name>RegistroUsuario</servlet-name>
+		<servlet-class>com.ms.gae.servlet.RegistroUsuario</servlet-class>
+	</servlet>
+	
+    <servlet>
+        <servlet-name>Login</servlet-name>
+        <servlet-class>com.ms.gae.servlet.Login</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>Logout</servlet-name>
+        <servlet-class>com.ms.gae.servlet.Logout</servlet-class>
+    </servlet>
+	
+    <!-- Organizacion Servelts -->
+	<servlet>
+	    <servlet-name>RegistroOrganizacionDir</servlet-name>
+	    <servlet-class>com.ms.gae.servlet.RegistroOrganizacionDir</servlet-class>
+	</servlet>
+	<servlet>
+	    <servlet-name>EliminarOrganizacion</servlet-name>
+	    <servlet-class>com.ms.gae.servlet.EliminarOrganizacion</servlet-class>
+	</servlet>
+	<servlet>
+	    <servlet-name>UpdateOrganizacion</servlet-name>
+	    <servlet-class>com.ms.gae.servlet.UpdateOrganizacion</servlet-class>
+	</servlet>
+	
+	<!-- Contacto servelts-->
+	<servlet>
+	    <servlet-name>RegistroContactoD</servlet-name>
+	    <servlet-class>com.ms.gae.servlet.RegistroContactoD</servlet-class>
+	</servlet>
+	<servlet>
+	    <servlet-name>EliminarContacto</servlet-name>
+	    <servlet-class>com.ms.gae.servlet.EliminarContacto</servlet-class>
+	</servlet>
+	
+	<!-- Oportunidad servelts -->
+	<servlet>
+	    <servlet-name>RegistroOportunidad</servlet-name>
+	    <servlet-class>com.ms.gae.servlet.RegistroOportunidad</servlet-class>
+	</servlet>
+	<servlet>
+	    <servlet-name>EliminarOportunidad</servlet-name>
+	    <servlet-class>com.ms.gae.servlet.EliminarOportunidad</servlet-class>
+	</servlet>
+	
+	<!-- User servlet -->
+	<servlet>
+	    <servlet-name>UpdateUsuario</servlet-name>
+	    <servlet-class>com.ms.gae.servlet.UpdateUsuario</servlet-class>
+	</servlet>
+    
+	<servlet>
+		<servlet-name>GoogleLogin</servlet-name>
+		<servlet-class>com.ms.gae.servlet.GoogleLoginServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>GoogleLogin</servlet-name>
+		<url-pattern>/googleLogin</url-pattern>
+	</servlet-mapping>
+	
+	
+    
+    <servlet-mapping>
+        <servlet-name>sing</servlet-name>
+        <url-pattern>/servlet/*</url-pattern>
+    </servlet-mapping>
+    
+	<servlet-mapping>
+		<servlet-name>RegistroUsuario</servlet-name>
+		<url-pattern>/registroUsuario</url-pattern>
+	</servlet-mapping>
+	
+	<servlet-mapping>
+	    <servlet-name>Login</servlet-name>
+	    <url-pattern>/Login</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+	    <servlet-name>Logout</servlet-name>
+	    <url-pattern>/Logout</url-pattern>
+	</servlet-mapping>
+	
+	<!-- Mapping organizacion registro/eliminar -->
+	<servlet-mapping>
+	    <servlet-name>RegistroOrganizacionDir</servlet-name>
+	    <url-pattern>/registroOrganizacionDir</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+	    <servlet-name>EliminarOrganizacion</servlet-name>
+	    <url-pattern>/eliminarOrganizacion</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+	    <servlet-name>UpdateOrganizacion</servlet-name>
+	    <url-pattern>/UpdateOrganizacion</url-pattern>
+	</servlet-mapping>
+	
+	<!-- Mapping contacto registro/eliminar -->
+	<servlet-mapping>
+	    <servlet-name>RegistroContactoD</servlet-name>
+	    <url-pattern>/registroContactoD</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+	    <servlet-name>EliminarContacto</servlet-name>
+	    <url-pattern>/eliminarContacto</url-pattern>
+	</servlet-mapping>
+	
+	<!-- Mapping oportunidad registro/eliminar -->
+	<servlet-mapping>
+	    <servlet-name>RegistroOportunidad</servlet-name>
+	    <url-pattern>/registroOportunidad</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+	    <servlet-name>EliminarOportunidad</servlet-name>
+	    <url-pattern>/eliminarOportunidad</url-pattern>
+	</servlet-mapping>
+	
+    <!-- Update user -->
+    <servlet-mapping>
+	    <servlet-name>UpdateUsuario</servlet-name>
+	    <url-pattern>/updateUsuario</url-pattern>
+	</servlet-mapping>
+    
+    <welcome-file-list>
+        <welcome-file>index.jsp</welcome-file>
+    </welcome-file-list>
+	
+    <error-page>
+    	<error-code>404</error-code>
+    	<location>/error.jsp</location>
+	</error-page>
+	
+    <!--servlet>
+        <display-name>informacion_organizacion</display-name>
+        <servlet-name>informacion_organizacion</servlet-name>
+        <jsp-file>informacion_organizacion.jsp</jsp-file>
+    </servlet>
+    <security-constraint>
+        <display-name>SecurityConstraint</display-name>
+        <web-resource-collection>
+            <web-resource-name>WRCollection</web-resource-name>
+            <url-pattern>/*</url-pattern>
+        </web-resource-collection>
+        <auth-constraint>
+            <role-name>*</role-name>
+        </auth-constraint>
+        <user-data-constraint>
+            <transport-guarantee>CONFIDENTIAL</transport-guarantee>
+        </user-data-constraint>
+    </security-constraint>
+    <login-config>
+        <auth-method>FORM</auth-method>
+        <form-login-config>
+            <form-login-page>index.jsp</form-login-page>
+            <form-error-page>error.jsp</form-error-page>
+        </form-login-config>
+    </login-config>
+    <security-role>
+        <role-name>*</role-name>
+    </security-role-->
+    <session-config>
+    	<session-timeout>10</session-timeout>
+    </session-config>
+    <!--filter>
+        <filter-name>_ah_DevSocketFilter</filter-name>
+        <filter-class>com.google.appengine.api.socket.dev.DevSocketFilter</filter-class>
+        <init-param>
+            <param-name>use-native-sockets</param-name>
+            <param-value>true</param-value>
+        </init-param>
+    </filter>
+
+    <filter-mapping>
+        <filter-name>_ah_DevSocketFilter</filter-name>
+        <url-pattern>/*</url-pattern>
+    </filter-mapping-->
+</web-app>

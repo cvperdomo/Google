@@ -1,0 +1,1242 @@
+.version.menu /* version checker */
+{
+	color: #0000E5;
+	background-color: #7185E5;
+}
+
+.html
+{
+	background: #FFFFFF url("../images/fondo.jpg") no-repeat left top scroll;
+	background-size: cover;
+}
+
+#page
+{
+	z-index: 1;
+	width: 960px;
+	min-height: 499.7962121212122px;
+	background-image: none;
+	border-style: none;
+	border-color: #000000;
+	background-color: transparent;
+	padding-bottom: 0px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#page_position_content
+{
+	margin-top: -57px;
+	padding-bottom: 62px;
+	width: 0.01px;
+}
+
+#u208
+{
+	z-index: 2;
+	width: 185px;
+	margin-left: 20px;
+}
+
+#ppu256-4
+{
+	width: 0.01px;
+	margin-left: 20px;
+	margin-top: 20px;
+}
+
+#pu256-4
+{
+	width: 0.01px;
+	margin-right: -10000px;
+	margin-left: 154px;
+}
+
+#u256-4
+{
+	z-index: 10;
+	width: 105px;
+	min-height: 16px;
+	background-color: transparent;
+	text-align: center;
+	color: #5F5F5F;
+	position: relative;
+	margin-right: -10000px;
+	margin-top: 4px;
+	left: 24px;
+}
+
+#u257
+{
+	z-index: 14;
+	width: 154px;
+	height: 28px;
+	opacity: 0.5;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+	filter: alpha(opacity=50);
+	position: relative;
+	margin-right: -10000px;
+	background: transparent url("../images/boton_menu-normal.png") no-repeat left top;
+	background-size: contain;
+}
+
+#u257:hover
+{
+	width: 154px;
+	height: 28px;
+	min-height: 0px;
+	margin: 0px -10000px 0px 0px;
+	background: transparent url("../images/boton_menu-hover.png") no-repeat left top;
+	background-size: contain;
+}
+
+#pu260-4
+{
+	width: 0.01px;
+	margin-right: -10000px;
+	margin-left: 462px;
+}
+
+#u260-4
+{
+	z-index: 20;
+	width: 105px;
+	min-height: 16px;
+	background-color: transparent;
+	text-align: center;
+	color: #5F5F5F;
+	position: relative;
+	margin-right: -10000px;
+	margin-top: 4px;
+	left: 24px;
+}
+
+#u261
+{
+	z-index: 24;
+	width: 154px;
+	height: 28px;
+	opacity: 0.5;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+	filter: alpha(opacity=50);
+	position: relative;
+	margin-right: -10000px;
+	background: transparent url("../images/boton_menu-normal.png") no-repeat left top;
+	background-size: contain;
+}
+
+#u261:hover
+{
+	width: 154px;
+	height: 28px;
+	min-height: 0px;
+	margin: 0px -10000px 0px 0px;
+	background: transparent url("../images/boton_menu-hover.png") no-repeat left top;
+	background-size: contain;
+}
+
+#pu264-4
+{
+	width: 0.01px;
+	margin-right: -10000px;
+	margin-left: 770px;
+}
+
+#u264-4
+{
+	z-index: 30;
+	width: 105px;
+	min-height: 16px;
+	background-color: transparent;
+	text-align: center;
+	color: #5F5F5F;
+	position: relative;
+	margin-right: -10000px;
+	margin-top: 4px;
+	left: 24px;
+}
+
+#u265
+{
+	z-index: 34;
+	width: 154px;
+	height: 28px;
+	opacity: 0.5;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+	filter: alpha(opacity=50);
+	position: relative;
+	margin-right: -10000px;
+	background: transparent url("../images/boton_menu-normal.png") no-repeat left top;
+	background-size: contain;
+}
+
+#u265:hover
+{
+	width: 154px;
+	height: 28px;
+	min-height: 0px;
+	margin: 0px -10000px 0px 0px;
+	background: transparent url("../images/boton_menu-hover.png") no-repeat left top;
+	background-size: contain;
+}
+
+#u246-4
+{
+	z-index: 5;
+	width: 105px;
+	min-height: 16px;
+	background-color: transparent;
+	text-align: center;
+	color: #5F5F5F;
+	position: relative;
+	margin-right: -10000px;
+	margin-top: 4px;
+	left: 24px;
+}
+
+#u220
+{
+	z-index: 9;
+	width: 154px;
+	height: 28px;
+	opacity: 0.6;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
+	filter: alpha(opacity=60);
+	position: relative;
+	margin-right: -10000px;
+	background: transparent url("../images/boton_menu-normal.png") no-repeat left top;
+	background-size: contain;
+}
+
+#u220.MuseLinkActive
+{
+	width: 154px;
+	height: 28px;
+	min-height: 0px;
+	margin: 0px -10000px 0px 0px;
+	background: transparent url("../images/boton_menu-activo.png") no-repeat left top;
+	background-size: contain;
+}
+
+#u258-4
+{
+	z-index: 15;
+	width: 105px;
+	min-height: 16px;
+	background-color: transparent;
+	text-align: center;
+	color: #5F5F5F;
+	position: relative;
+	margin-right: -10000px;
+	margin-top: 4px;
+	left: 332px;
+}
+
+#u259
+{
+	z-index: 19;
+	width: 154px;
+	height: 28px;
+	opacity: 0.5;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+	filter: alpha(opacity=50);
+	position: relative;
+	margin-right: -10000px;
+	left: 308px;
+	background: transparent url("../images/boton_menu-normal.png") no-repeat left top;
+	background-size: contain;
+}
+
+#u259:hover
+{
+	width: 154px;
+	height: 28px;
+	min-height: 0px;
+	margin: 0px -10000px 0px 0px;
+	background: transparent url("../images/boton_menu-hover.png") no-repeat left top;
+	background-size: contain;
+}
+
+#u262-4
+{
+	z-index: 25;
+	width: 105px;
+	min-height: 16px;
+	background-color: transparent;
+	text-align: center;
+	color: #5F5F5F;
+	position: relative;
+	margin-right: -10000px;
+	margin-top: 4px;
+	left: 640px;
+}
+
+#u263
+{
+	z-index: 29;
+	width: 154px;
+	height: 28px;
+	opacity: 0.5;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+	filter: alpha(opacity=50);
+	position: relative;
+	margin-right: -10000px;
+	left: 616px;
+	background: transparent url("../images/boton_menu-normal.png") no-repeat left top;
+	background-size: contain;
+}
+
+#u263:hover
+{
+	width: 154px;
+	height: 28px;
+	min-height: 0px;
+	margin: 0px -10000px 0px 0px;
+	background: transparent url("../images/boton_menu-hover.png") no-repeat left top;
+	background-size: contain;
+}
+
+#u257:active,#u261:active,#u265:active,#u259:active,#u263:active
+{
+	width: 154px;
+	height: 28px;
+	min-height: 0px;
+	margin: 0px -10000px 0px 0px;
+	background: transparent url("../images/boton_menu-normal.png") no-repeat left top;
+	background-size: contain;
+}
+
+#pu284
+{
+	z-index: 35;
+	width: 0.01px;
+	position: relative;
+	margin-left: 20px;
+	margin-top: 14px;
+}
+
+#u284
+{
+	z-index: 0;
+	width: 920px;
+	background-color: #FF9109;
+	opacity: 0.3;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=30)";
+	filter: alpha(opacity=30);
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+}
+
+#pu285-4
+{
+	width: 0.01px;
+	position: relative;
+	left: 24px;
+	padding-top: 18px;
+	z-index: 2;
+	padding-bottom: 14px;
+}
+
+#u285-4
+{
+	z-index: 36;
+	width: 177px;
+	min-height: 18px;
+	background-color: transparent;
+	color: #5F5F5F;
+	position: relative;
+	margin-right: -10000px;
+}
+
+#pu288
+{
+	z-index: 40;
+	width: 0.01px;
+	position: relative;
+	margin-left: 20px;
+}
+
+#u323-4
+{
+	z-index: 44;
+	width: 130px;
+	min-height: 18px;
+	background-color: transparent;
+	color: #5F5F5F;
+	position: relative;
+	margin-right: -10000px;
+}
+
+#pu310
+{
+	z-index: 4;
+	width: 0.01px;
+	position: relative;
+	margin-right: -10000px;
+}
+
+#ppu338-4
+{
+	width: 0.01px;
+	position: relative;
+	left: 24px;
+	padding-top: 44px;
+	z-index: 2;
+	padding-bottom: 30px;
+}
+
+#pu338-4
+{
+	width: 0.01px;
+	padding-bottom: 0px;
+	margin-right: -10000px;
+}
+
+#u338-4
+{
+	z-index: 61;
+	width: 145px;
+	min-height: 18px;
+	background-color: transparent;
+	line-height: 14px;
+	color: #5F5F5F;
+	text-align: right;
+	font-size: 12px;
+	position: relative;
+}
+
+#u339-4
+{
+	z-index: 65;
+	width: 145px;
+	min-height: 18px;
+	background-color: transparent;
+	line-height: 14px;
+	color: #5F5F5F;
+	text-align: right;
+	font-size: 12px;
+	margin-top: 9px;
+	position: relative;
+}
+
+#u340-4
+{
+	z-index: 69;
+	width: 145px;
+	min-height: 18px;
+	background-color: transparent;
+	line-height: 14px;
+	color: #5F5F5F;
+	text-align: right;
+	font-size: 12px;
+	margin-top: 8px;
+	position: relative;
+}
+
+#pu342
+{
+	width: 0.01px;
+	padding-bottom: 0px;
+	margin-right: -10000px;
+	margin-left: 155px;
+}
+
+#u342
+{
+	z-index: 74;
+	width: 130px;
+	height: 18px;
+	background-color: #FFFFFF;
+	opacity: 0.5;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+	filter: alpha(opacity=50);
+	position: relative;
+}
+
+#u343
+{
+	z-index: 75;
+	width: 130px;
+	height: 18px;
+	background-color: #FFFFFF;
+	opacity: 0.5;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+	filter: alpha(opacity=50);
+	margin-top: 9px;
+	position: relative;
+}
+
+#u344
+{
+	z-index: 76;
+	width: 130px;
+	height: 18px;
+	background-color: #FFFFFF;
+	opacity: 0.5;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+	filter: alpha(opacity=50);
+	margin-top: 8px;
+	position: relative;
+}
+
+#pu346-4
+{
+	width: 0.01px;
+	margin-right: -10000px;
+	margin-left: 294px;
+}
+
+#u346-4
+{
+	z-index: 81;
+	width: 145px;
+	min-height: 18px;
+	background-color: transparent;
+	line-height: 14px;
+	color: #5F5F5F;
+	text-align: right;
+	font-size: 12px;
+	position: relative;
+}
+
+#u347-4
+{
+	z-index: 85;
+	width: 145px;
+	min-height: 18px;
+	background-color: transparent;
+	line-height: 14px;
+	color: #5F5F5F;
+	text-align: right;
+	font-size: 12px;
+	margin-top: 9px;
+	position: relative;
+}
+
+#pu350
+{
+	width: 0.01px;
+	margin-right: -10000px;
+	margin-left: 449px;
+}
+
+#u350
+{
+	z-index: 90;
+	width: 137px;
+	height: 18px;
+	background-color: #FFFFFF;
+	opacity: 0.5;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+	filter: alpha(opacity=50);
+	position: relative;
+}
+
+#u351
+{
+	z-index: 91;
+	width: 137px;
+	height: 18px;
+	background-color: #FFFFFF;
+	opacity: 0.5;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+	filter: alpha(opacity=50);
+	margin-top: 9px;
+	position: relative;
+}
+
+#pu354-4
+{
+	width: 0.01px;
+	margin-right: -10000px;
+	margin-left: 600px;
+}
+
+#u354-4
+{
+	z-index: 96;
+	width: 124px;
+	min-height: 18px;
+	background-color: transparent;
+	line-height: 14px;
+	color: #5F5F5F;
+	text-align: right;
+	font-size: 12px;
+	position: relative;
+}
+
+#u355-4
+{
+	z-index: 100;
+	width: 124px;
+	min-height: 18px;
+	background-color: transparent;
+	line-height: 14px;
+	color: #5F5F5F;
+	text-align: right;
+	font-size: 12px;
+	margin-top: 9px;
+	position: relative;
+}
+
+#pu358
+{
+	width: 0.01px;
+	margin-right: -10000px;
+	margin-left: 734px;
+}
+
+#u358
+{
+	z-index: 105;
+	width: 137px;
+	height: 18px;
+	background-color: #FFFFFF;
+	opacity: 0.5;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+	filter: alpha(opacity=50);
+	position: relative;
+}
+
+#u359
+{
+	z-index: 106;
+	width: 137px;
+	height: 18px;
+	background-color: #FFFFFF;
+	opacity: 0.5;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+	filter: alpha(opacity=50);
+	margin-top: 9px;
+	position: relative;
+}
+
+#u289
+{
+	z-index: 41;
+	width: 920px;
+	height: 17px;
+	opacity: 0.8;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+	filter: alpha(opacity=80);
+	position: relative;
+	margin-right: -10000px;
+	background: transparent url("../images/sombra_barra.png") repeat-x left top;
+}
+
+#u303
+{
+	z-index: 42;
+	width: 22px;
+	background-color: transparent;
+	opacity: 0.6;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
+	filter: alpha(opacity=60);
+	position: relative;
+	margin-right: -10000px;
+	left: 451px;
+}
+
+#u334-4
+{
+	z-index: 57;
+	width: 145px;
+	min-height: 18px;
+	background-color: transparent;
+	line-height: 14px;
+	color: #5F5F5F;
+	text-align: right;
+	font-size: 12px;
+	position: relative;
+	margin-right: -10000px;
+	margin-top: 17px;
+	left: 24px;
+}
+
+#u341
+{
+	z-index: 73;
+	width: 130px;
+	height: 18px;
+	background-color: #FFFFFF;
+	opacity: 0.5;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+	filter: alpha(opacity=50);
+	position: relative;
+	margin-right: -10000px;
+	margin-top: 17px;
+	left: 178px;
+}
+
+#u345-4
+{
+	z-index: 77;
+	width: 145px;
+	min-height: 18px;
+	background-color: transparent;
+	line-height: 14px;
+	color: #5F5F5F;
+	text-align: right;
+	font-size: 12px;
+	position: relative;
+	margin-right: -10000px;
+	margin-top: 17px;
+	left: 318px;
+}
+
+#u349
+{
+	z-index: 89;
+	width: 137px;
+	height: 18px;
+	background-color: #FFFFFF;
+	opacity: 0.5;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+	filter: alpha(opacity=50);
+	position: relative;
+	margin-right: -10000px;
+	margin-top: 17px;
+	left: 472px;
+}
+
+#u353-4
+{
+	z-index: 92;
+	width: 124px;
+	min-height: 18px;
+	background-color: transparent;
+	line-height: 14px;
+	color: #5F5F5F;
+	text-align: right;
+	font-size: 12px;
+	position: relative;
+	margin-right: -10000px;
+	margin-top: 17px;
+	left: 624px;
+}
+
+#u357
+{
+	z-index: 104;
+	width: 137px;
+	height: 18px;
+	background-color: #FFFFFF;
+	opacity: 0.5;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+	filter: alpha(opacity=50);
+	position: relative;
+	margin-right: -10000px;
+	margin-top: 17px;
+	left: 758px;
+}
+
+#pu325
+{
+	z-index: 49;
+	width: 0.01px;
+	position: relative;
+	margin-left: 20px;
+	margin-top: 5px;
+}
+
+#u329-4
+{
+	z-index: 51;
+	width: 130px;
+	min-height: 18px;
+	background-color: transparent;
+	color: #5F5F5F;
+	position: relative;
+	margin-right: -10000px;
+}
+
+#pu324
+{
+	z-index: 48;
+	width: 0.01px;
+	position: relative;
+	margin-right: -10000px;
+}
+
+#pu326
+{
+	width: 0.01px;
+	padding-bottom: 20.05000000000001px;
+	position: relative;
+	z-index: 2;
+}
+
+#u326
+{
+	z-index: 50;
+	width: 920px;
+	height: 17px;
+	opacity: 0.8;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+	filter: alpha(opacity=80);
+	position: relative;
+	background: transparent url("../images/sombra_barra.png") repeat-x left top;
+}
+
+#pu361-4
+{
+	width: 0.01px;
+	margin-left: 24px;
+}
+
+#u361-4
+{
+	z-index: 107;
+	width: 145px;
+	min-height: 18px;
+	background-color: transparent;
+	line-height: 14px;
+	color: #5F5F5F;
+	text-align: right;
+	font-size: 12px;
+	position: relative;
+	margin-right: -10000px;
+}
+
+#u365
+{
+	z-index: 119;
+	width: 259px;
+	height: 45px;
+	background-color: #FFFFFF;
+	opacity: 0.5;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+	filter: alpha(opacity=50);
+	position: relative;
+	margin-right: -10000px;
+	left: 155px;
+}
+
+#u363-4
+{
+	z-index: 111;
+	width: 145px;
+	min-height: 18px;
+	background-color: transparent;
+	line-height: 14px;
+	color: #5F5F5F;
+	text-align: right;
+	font-size: 12px;
+	position: relative;
+	margin-right: -10000px;
+}
+
+#u367
+{
+	z-index: 120;
+	width: 259px;
+	height: 18px;
+	background-color: #FFFFFF;
+	opacity: 0.5;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+	filter: alpha(opacity=50);
+	position: relative;
+	margin-right: -10000px;
+	left: 155px;
+}
+
+#u386-4
+{
+	z-index: 136;
+	width: 145px;
+	min-height: 18px;
+	background-color: transparent;
+	line-height: 14px;
+	color: #5F5F5F;
+	text-align: right;
+	font-size: 12px;
+	position: relative;
+	margin-right: -10000px;
+	left: 449px;
+}
+
+#u389
+{
+	z-index: 145;
+	width: 267px;
+	height: 18px;
+	background-color: #FFFFFF;
+	opacity: 0.5;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+	filter: alpha(opacity=50);
+	position: relative;
+	margin-right: -10000px;
+	left: 604px;
+}
+
+#u364-4
+{
+	z-index: 115;
+	width: 145px;
+	min-height: 18px;
+	background-color: transparent;
+	line-height: 14px;
+	color: #5F5F5F;
+	text-align: right;
+	font-size: 12px;
+	position: relative;
+	margin-right: -10000px;
+	margin-top: 1px;
+}
+
+#u368
+{
+	z-index: 121;
+	width: 259px;
+	height: 18px;
+	background-color: #FFFFFF;
+	opacity: 0.5;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+	filter: alpha(opacity=50);
+	position: relative;
+	margin-right: -10000px;
+	margin-top: 1px;
+	left: 155px;
+}
+
+#u387-4
+{
+	z-index: 140;
+	width: 145px;
+	min-height: 18px;
+	background-color: transparent;
+	line-height: 14px;
+	color: #5F5F5F;
+	text-align: right;
+	font-size: 12px;
+	position: relative;
+	margin-right: -10000px;
+	margin-top: 1px;
+	left: 449px;
+}
+
+#u390
+{
+	z-index: 146;
+	width: 267px;
+	height: 18px;
+	background-color: #FFFFFF;
+	opacity: 0.5;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+	filter: alpha(opacity=50);
+	position: relative;
+	margin-right: -10000px;
+	left: 604px;
+}
+
+#pu363-4,#pu381-4
+{
+	width: 0.01px;
+	margin-left: 24px;
+	margin-top: 8px;
+}
+
+#u381-4
+{
+	z-index: 122;
+	width: 145px;
+	min-height: 18px;
+	background-color: transparent;
+	line-height: 14px;
+	color: #5F5F5F;
+	text-align: right;
+	font-size: 12px;
+	position: relative;
+	margin-right: -10000px;
+	margin-top: 1px;
+}
+
+#u382
+{
+	z-index: 126;
+	width: 259px;
+	height: 18px;
+	background-color: #FFFFFF;
+	opacity: 0.5;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+	filter: alpha(opacity=50);
+	position: relative;
+	margin-right: -10000px;
+	margin-top: 1px;
+	left: 155px;
+}
+
+#u391-4
+{
+	z-index: 147;
+	width: 145px;
+	min-height: 18px;
+	background-color: transparent;
+	line-height: 14px;
+	color: #5F5F5F;
+	text-align: right;
+	font-size: 12px;
+	position: relative;
+	margin-right: -10000px;
+	margin-top: 1px;
+	left: 449px;
+}
+
+#u392
+{
+	z-index: 151;
+	width: 267px;
+	height: 18px;
+	background-color: #FFFFFF;
+	opacity: 0.5;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+	filter: alpha(opacity=50);
+	position: relative;
+	margin-right: -10000px;
+	left: 603px;
+}
+
+#pu364-4,#pu383-4
+{
+	width: 0.01px;
+	margin-left: 24px;
+	margin-top: 9px;
+}
+
+#u383-4
+{
+	z-index: 127;
+	width: 145px;
+	min-height: 18px;
+	background-color: transparent;
+	line-height: 14px;
+	color: #5F5F5F;
+	text-align: right;
+	font-size: 12px;
+	position: relative;
+	margin-right: -10000px;
+	margin-top: 1px;
+}
+
+#u384
+{
+	z-index: 131;
+	width: 259px;
+	height: 18px;
+	background-color: #FFFFFF;
+	opacity: 0.5;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+	filter: alpha(opacity=50);
+	position: relative;
+	margin-right: -10000px;
+	margin-top: 1px;
+	left: 155px;
+}
+
+#u393-4
+{
+	z-index: 152;
+	width: 145px;
+	min-height: 18px;
+	background-color: transparent;
+	line-height: 14px;
+	color: #5F5F5F;
+	text-align: right;
+	font-size: 12px;
+	position: relative;
+	margin-right: -10000px;
+	margin-top: 1px;
+	left: 449px;
+}
+
+#u394
+{
+	z-index: 156;
+	width: 266px;
+	height: 18px;
+	background-color: #FFFFFF;
+	opacity: 0.5;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+	filter: alpha(opacity=50);
+	position: relative;
+	margin-right: -10000px;
+	left: 604px;
+}
+
+#u331
+{
+	z-index: 55;
+	width: 22px;
+	background-color: transparent;
+	opacity: 0.6;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
+	filter: alpha(opacity=60);
+	position: relative;
+	margin-right: -10000px;
+	left: 451px;
+}
+
+#u385-4
+{
+	z-index: 132;
+	width: 145px;
+	min-height: 18px;
+	background-color: transparent;
+	line-height: 14px;
+	color: #5F5F5F;
+	text-align: right;
+	font-size: 12px;
+	position: relative;
+	margin-right: -10000px;
+	margin-top: 17px;
+	left: 473px;
+}
+
+#u388
+{
+	z-index: 144;
+	width: 267px;
+	height: 45px;
+	background-color: #FFFFFF;
+	opacity: 0.5;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+	filter: alpha(opacity=50);
+	position: relative;
+	margin-right: -10000px;
+	margin-top: 17px;
+	left: 627px;
+}
+
+#pu396
+{
+	z-index: 158;
+	width: 0.01px;
+	position: relative;
+	margin-left: 20px;
+	margin-top: 5px;
+}
+
+#u288,#u325,#u396
+{
+	z-index: 0;
+	width: 920px;
+	background-color: #FFFFFF;
+	opacity: 0.6;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
+	filter: alpha(opacity=60);
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+}
+
+#pu323-4,#pu329-4,#pu398-4
+{
+	width: 0.01px;
+	position: relative;
+	left: 24px;
+	padding-top: 5px;
+	z-index: 2;
+	padding-bottom: 6px;
+}
+
+#u398-4
+{
+	z-index: 160;
+	width: 130px;
+	min-height: 18px;
+	background-color: transparent;
+	color: #5F5F5F;
+	position: relative;
+	margin-right: -10000px;
+}
+
+#ppu310,#ppu324,#ppu395
+{
+	width: 0.01px;
+	margin-left: 20px;
+}
+
+#pu395
+{
+	z-index: 157;
+	width: 0.01px;
+	position: relative;
+	margin-right: -10000px;
+}
+
+#u310,#u324,#u395
+{
+	z-index: 0;
+	width: 920px;
+	border-style: none;
+	border-color: transparent;
+	background-color: #FFFFFF;
+	opacity: 0.2;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=20)";
+	filter: alpha(opacity=20);
+	position: absolute;
+	top: 0px;
+	bottom: 0px;
+}
+
+#pu397
+{
+	width: 0.01px;
+	position: relative;
+	z-index: 2;
+	padding-bottom: 22px;
+}
+
+#u397
+{
+	z-index: 159;
+	width: 920px;
+	height: 17px;
+	opacity: 0.8;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
+	filter: alpha(opacity=80);
+	position: relative;
+	background: transparent url("../images/sombra_barra.png") repeat-x left top;
+}
+
+#u402
+{
+	z-index: 166;
+	width: 871px;
+	height: 45px;
+	background-color: #FFFFFF;
+	opacity: 0.5;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+	filter: alpha(opacity=50);
+	margin-left: 24px;
+	margin-top: 6px;
+	position: relative;
+}
+
+#u399
+{
+	z-index: 164;
+	width: 22px;
+	background-color: transparent;
+	opacity: 0.6;
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
+	filter: alpha(opacity=60);
+	position: relative;
+	margin-right: -10000px;
+	left: 451px;
+}
+
+body
+{
+	position: relative;
+	min-width: 960px;
+	padding-top: 83px;
+	padding-bottom: 36px;
+}
+
+#page .verticalspacer
+{
+	clear: both;
+}
+

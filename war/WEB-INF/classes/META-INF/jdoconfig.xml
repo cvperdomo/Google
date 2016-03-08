@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jdoconfig xmlns="http://java.sun.com/xml/ns/jdo/jdoconfig"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:noNamespaceSchemaLocation="http://java.sun.com/xml/ns/jdo/jdoconfig">
+
+   <!--persistence-manager-factory name="transactions-optional">
+       <property name="javax.jdo.PersistenceManagerFactoryClass"
+           value="org.datanucleus.store.appengine.jdo.DatastoreJDOPersistenceManagerFactory"/>
+       <property name="javax.jdo.option.ConnectionURL" value="appengine"/>
+       <property name="javax.jdo.option.NontransactionalRead" value="true"/>
+       <property name="javax.jdo.option.NontransactionalWrite" value="true"/>
+       <property name="javax.jdo.option.RetainValues" value="true"/>
+       <property name="datanucleus.appengine.autoCreateDatastoreTxns" value="true"/>
+       <property name="datanucleus.appengine.ignorableMetaDataBehavior" value="NONE" />
+   </persistence-manager-factory-->
+   
+   <persistence-manager-factory name="transactions-optional">
+       <property name="javax.jdo.PersistenceManagerFactoryClass"
+           value="org.datanucleus.api.jdo.JDOPersistenceManagerFactory"/>
+       <property name="javax.jdo.option.ConnectionURL" value="appengine"/>
+       <property name="javax.jdo.option.NontransactionalRead" value="true"/>
+       <property name="javax.jdo.option.NontransactionalWrite" value="true"/>
+       <property name="javax.jdo.option.RetainValues" value="true"/>
+       <property name="datanucleus.appengine.autoCreateDatastoreTxns" value="true"/>
+       <property name="datanucleus.appengine.singletonPMFForName" value="true"/>
+   </persistence-manager-factory>
+   
+   <!-- Datastore Txn PMF >
+    <persistence-manager-factory name="Datastore">
+        <property name="javax.jdo.PersistenceManagerFactoryClass" value="org.datanucleus.api.jdo.JDOPersistenceManagerFactory"/>
+        <property name="javax.jdo.option.ConnectionURL" value="jdbc:mysql://localhost/datanucleus?useServerPrepStmts=false"/>
+        <property name="javax.jdo.option.ConnectionDriverName" value="com.mysql.jdbc.Driver"/>
+        <property name="javax.jdo.option.ConnectionUserName" value="datanucleus"/>
+        <property name="javax.jdo.option.ConnectionPassword" value="root"/>
+        <property name="javax.jdo.option.Optimistic" value="false"/>
+        <property name="datanucleus.schema.autoCreateAll" value="true"/>
+    </persistence-manager-factory-->
+
+    <!-- Optimistic Txn PMF -->
+    <!--persistence-manager-factory name="Optimistic">
+        <property name="javax.jdo.PersistenceManagerFactoryClass" value="org.datanucleus.api.jdo.JDOPersistenceManagerFactory"/>
+        <property name="javax.jdo.option.ConnectionURL" value="jdbc:mysql://localhost/datanucleus?useServerPrepStmts=false"/>
+        <property name="javax.jdo.option.ConnectionDriverName" value="com.mysql.jdbc.Driver"/>
+        <property name="javax.jdo.option.ConnectionUserName" value="datanucleus"/>
+        <property name="javax.jdo.option.ConnectionPassword" value="root"/>
+        <property name="javax.jdo.option.Optimistic" value="true"/>
+        <property name="datanucleus.schema.autoCreateAll" value="true"/>
+    </persistence-manager-factory>
+    
+    
+    <persistence-unit name="OnlineStore">
+        <class>org.datanucleus.samples.metadata.store.Product</class>
+        <class>org.datanucleus.samples.metadata.store.Book</class>
+        <class>org.datanucleus.samples.metadata.store.CompactDisc</class>
+        <class>org.datanucleus.samples.metadata.store.Customer</class>
+        <class>org.datanucleus.samples.metadata.store.Supplier</class>
+        <exclude-unlisted-classes/>
+        <properties>
+            <property name="datanucleus.ConnectionDriverName" value="org.h2.Driver"/>
+            <property name="datanucleus.ConnectionURL" value="jdbc:h2:mem:datanucleus"/>
+            <property name="datanucleus.ConnectionUserName" value="user"/>
+            <property name="datanucleus.ConnectionPassword" value="root"/>
+        </properties>
+    </persistence-unit-->
+</jdoconfig>
